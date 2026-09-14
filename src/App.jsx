@@ -473,7 +473,7 @@ function OverviewView({ selectedCharacter, onSelectCharacter, onOpenVehicle, onO
 
 function WelcomePanel({ onOpen }) {
   return (
-    <section className="welcome-panel">
+    <section className="welcome-panel" style={{ backgroundImage: "url('assets/los-santos-dusk.webp')" }}>
       <div className="welcome-copy"><h2>Willkommen zurück in<br />Los Santos</h2><p>Hier verwaltest du deine Charaktere, Fahrzeuge, Fraktionen und mehr.</p><button className="welcome-button" onClick={onOpen}>Charakter öffnen <ArrowRight size={16} /></button></div>
       <div className="welcome-ratio" aria-hidden="true" />
     </section>

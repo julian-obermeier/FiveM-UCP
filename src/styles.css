@@ -107,7 +107,7 @@ button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-
 .panel-action { display: inline-flex; align-items: center; gap: 7px; padding: 8px 0 8px 8px; color: var(--cyan); background: transparent; font-size: 12px; transition: color .2s ease; }
 .panel-action:hover { color: #9fe8ff; }
 
-.welcome-panel { min-height: 208px; position: relative; isolation: isolate; overflow: hidden; display: flex; align-items: flex-end; border: 1px solid #29465d; border-radius: var(--radius); background: #111d2c url('../assets/los-santos-dusk.webp') center 48% / cover no-repeat; box-shadow: var(--shadow); }
+.welcome-panel { min-height: 208px; position: relative; isolation: isolate; overflow: hidden; display: flex; align-items: flex-end; border: 1px solid #29465d; border-radius: var(--radius); background-color: #111d2c; background-position: center 48%; background-size: cover; background-repeat: no-repeat; box-shadow: var(--shadow); }
 .welcome-panel::after { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(90deg, rgba(8, 15, 25, .9) 0%, rgba(8, 15, 25, .52) 47%, rgba(8, 15, 25, .06) 100%), linear-gradient(0deg, rgba(8, 15, 25, .7) 0%, transparent 60%); }
 .welcome-copy { max-width: 390px; position: relative; z-index: 1; padding: 24px 20px 21px; }
 .welcome-copy h2 { margin: 0; color: #f7fafc; font-family: Manrope, sans-serif; font-size: 24px; line-height: 1.17; letter-spacing: -.035em; }
