@@ -24,6 +24,8 @@ npm run build
 npm run preview
 ```
 
+Eine statische Produktionsvorschau liegt nach dem Build in `dist/`. Der aktuelle Repository-Stand enthält zusätzlich einen veröffentlichten Snapshot unter `preview/`, der sich direkt über einen statischen GitHub-Host öffnen lässt.
+
 ## Backend-Integration
 
 Die Oberfläche arbeitet aktuell mit Demo-Daten in `src/App.jsx`. Für den FiveM-Server können die Datenquellen anschließend gegen die vorhandene API/Authentifizierung ausgetauscht werden. Sinnvolle Endpunkte sind beispielsweise:

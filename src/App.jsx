@@ -110,7 +110,7 @@ const vehicles = [
     location: 'Pillbox Hill Garage',
     status: 'Eingelagert',
     lastUsed: 'Heute, 18:27',
-    image: '/assets/schafter-black.webp',
+    image: 'assets/schafter-black.webp',
   },
   {
     id: 'sultan',
@@ -123,7 +123,7 @@ const vehicles = [
     location: 'Vespucci Garage',
     status: 'Eingelagert',
     lastUsed: '12. Mai, 19:04',
-    image: '/assets/schafter-black.webp',
+    image: 'assets/schafter-black.webp',
   },
   {
     id: 'bison',
@@ -136,7 +136,7 @@ const vehicles = [
     location: 'Sandy Shores Depot',
     status: 'Wartung fällig',
     lastUsed: '08. Mai, 08:11',
-    image: '/assets/schafter-black.webp',
+    image: 'assets/schafter-black.webp',
   },
 ];
 
